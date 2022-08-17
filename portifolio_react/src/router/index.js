@@ -1,6 +1,7 @@
 import React from 'react';
 import {Route, Routes} from "react-router-dom";
 import Home from '../page/Home';
+import Form from '../page/Form';
 
 // import { Container } from './styles';
 
@@ -8,6 +9,7 @@ function RouterNavigation() {
   return <>
     <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/form' element={<Form/>}/>
     </Routes>
   </>;
 }
