@@ -1,9 +1,7 @@
 import React from 'react';
-import Card from '../../components/Card';
 import Carousel from '../../components/Carousel';
-import Chart2 from '../../components/Chart2';
 import Courses from '../../components/Courses';
-import Form from '../Form';
+
 
 // import { Container } from './styles';
 
@@ -41,8 +39,7 @@ function Home() {
           Página com demais projetos.
         </div>
       </div>
-      <Courses/>
-      <Chart2/>
+      <Courses/>      
     </div>    
   </>);
 }
